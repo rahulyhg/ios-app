@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'MYRIADPRO-REGULAR';
+    src:url(../fonts/MYRIADPRO-REGULAR.otf) format('opentype');
+}
+.background
+          {
+			  background-color:#000;
+			  background-image:url(../img/bg.jpg);
+			  background-repeat:repeat-y;
+			  background-attachment:fixed;
+			  width:100%;
+			  height:auto;
+		  }	 
+		  
+.panel-default {
+opacity: 0.9;
+margin-top:30px;
+}
+.form-group.last { margin-bottom:0px; }
+.small-logo{
+	margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+.logo-big {
+	 padding-bottom:15%;
+     padding-top: 15%;
+	 padding-left:10%;
+	 padding-right:10%;
+     position: relative;
+	}
+span.tooltipbtn {
+      position: absolute;
+      width: 244px;
+      height: 8px;
+      line-height: 8px;
+      padding: 12px;
+      font-size: 12px;
+      text-align: center;
+	  font-weight:bold;
+	  font-size-adjust:!important;
+	  word-spacing:-2px;
+	  color:#515151;
+      background: rgb(253, 253, 252);
+      border: 1px solid rgb(226, 226, 226);
+      border-radius: 10px;
+      text-shadow: rgba(0, 0, 0, 0.1) 1px 1px 1px;
+      box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 2px 0px;
+	 
+}
+
+span.tooltipbtn:after {
+      content: "MILLB";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-width: 12px;
+      border-style: solid;
+      border-color: #fdfdfc transparent transparent transparent;
+      top: 25px;
+      left: 122px;
+}
+
+.textbox_new { 
+    height: 2em; 
+    width: 100%; 
+    background-color: transparent;  
+    border-style: solid 2px;  
+    border-width: 0px 0px 2px 0px;  
+    border-color: #dadada; 
+    outline:0; 
+  } 
+ { font-size:18px; color:#FFF; }
+
+.formbg { 
+     border:solid 1px #2d2d2d;  
+	 width:60%;
+	 height:80%;
+     background:#fff; 
+    -moz-border-radius: 5px;  
+}
+
